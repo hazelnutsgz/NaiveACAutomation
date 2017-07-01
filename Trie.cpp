@@ -10,11 +10,16 @@
 #include <iostream>
 #include <queue>
 #include <fstream>
+
+/*  
+ Initialize trie with file input or stdin
+*/
 trie::trie(std::istream& fin){
     root = new trie_node();
     initialize_node(fin);
     initialize_fail_pointer();
 }
+
 
 void trie::deconstruct_rec(trie_node* root){
     for(int i = 0; i < 26; i++){
