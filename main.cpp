@@ -8,13 +8,9 @@
 
 #include <iostream>
 #include <fstream>
-#include "Trie.hpp"
-void test(){
-    std::ifstream fin("/Users/sgz/Desktop/test.txt");
-    trie tr(std::cin);
-    tr.ac_match_string(std::cin);
-}
+#include "Trie.h"
 
 int main(int argc, const char * argv[]) {
-    test();
+    Trie tr;
+    tr.Interact();
 }

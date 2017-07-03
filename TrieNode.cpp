@@ -1,14 +1,14 @@
 //
-//  Trie_Node.cpp
+//  TrieNode.cpp
 //  Trie
 //
 //  Created by 佘国榛 on 2017/6/30.
 //  Copyright © 2017年 佘国榛. All rights reserved.
 //
 
-#include "Trie_Node.hpp"
+#include "TrieNode.h"
 
-trie_node::trie_node(){
+TrieNode::TrieNode(){
     key = '\0';
     for(int i = 0; i < 26; i++){
         child[i] = NULL;
@@ -18,5 +18,5 @@ trie_node::trie_node(){
     exists = false;
 }
 
-trie_node::~trie_node(){
+TrieNode::~TrieNode(){
 }
