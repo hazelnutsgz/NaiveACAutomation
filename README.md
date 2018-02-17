@@ -1,7 +1,4 @@
-# -AC-Automation
-自己实现的ac自动机
+##Self-implemented Aho-Corasick-automaton
+Download and compile the whole project, then you can use it to do the multiwords text matching work with the prompt in the terminal~
 
-
-
-## 先急着搬家等会儿再说啦
 
